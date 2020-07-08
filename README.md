@@ -254,4 +254,4 @@ The following plot shows the score average per episode on green and over 100 epi
 
 * Implement Proximal Policy Optimization (PPO), which has also demonstrated good performance with continuous control tasks for a multi-task scenario.
 
-* On the previous project, D4PG showed an outstanding performance and low variance when acting. It should be interesting applied it to a multi-task scenario.
+* On the previous project, D4PG showed an outstanding performance and low variance when acting. It should be interesting to apply it to a multi-task scenario.
