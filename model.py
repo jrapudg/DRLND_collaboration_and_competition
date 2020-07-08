@@ -60,7 +60,7 @@ class DDPGCritic(nn.Module):
         self.fc2 = nn.Linear(fcs1_units, fc2_units)
         self.fc3 = nn.Linear(fc2_units, 1)
         self.reset_parameters()
-        self.bn = nn.BatchNorm1d(fcs1_units)
+        #self.bn = nn.BatchNorm1d(fcs1_units)
         #print("FC1 : {}".format((state_size + action_size)*2))
 
     def reset_parameters(self):
